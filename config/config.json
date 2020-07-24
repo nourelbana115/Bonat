@@ -1,0 +1,68 @@
+{
+    
+    "test": {
+        "PORT": 3001,
+        "MONGODB_URL": "mongodb://localhost:27017/BonatAppTest",
+        "JWT_SECRET": "sdf56sdf65sf6g16sfg654SAD5",
+        "MAIN_BACKEND_API":"http://52.15.230.101:3000/dashboard/v2/",  
+        "TESTING_ROUTE":"/api/v2/merchant/",
+        "AWS_S3_BUCKET":"bonat-deployments-mobilehub-1106034491",
+        "UNIFONIC_API_URL": "http://api.unifonic.com/rest/Messages/",
+        "UNIFONIC_APPSID": "tEWcCey0MzdoROSKhQD4CISriOzuPI"
+    },
+    "development": {
+        "PORT": 3001,
+
+        "MONGODB_URL": "mongodb://localhost:27017/BonatApp",
+
+        "JWT_SECRET": "hjn8g4j84ghj8gfh4jffng641n",
+        
+        "AWS_SES_KEY": "AKIARSGL23EJWQNP3R7H",
+        "AWS_SES_SECRET": "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",
+        "AWS_SES_URL": "https://email.eu-west-1.amazonaws.com",
+        "DEFUALT_SES_MAIL": "noreply@bonat.io",
+        
+        "AWS_SES_REGION": "eu-west-1",
+        
+        "AWS_S3_REGION": "eu-west-2",
+        
+        "AWS_S3_BUCKET":"bonat-deployments-mobilehub-1106034491",
+
+      
+        "MAIN_BACKEND_API":"http://52.15.230.101:3000/dashboard/v2/", 
+
+
+        "FIXED_MAIN_BACKEND_TOKEN":"efa2dedbb99799f7828544bcf7784875c55734e184046feb577622a583cc81762a972ac3b7b30d24c04ce45ee2f889bbabebf5dd244ab604cee605d0b2be7143",
+
+        "UNIFONIC_API_URL": "http://api.unifonic.com/rest/Messages/",
+        "UNIFONIC_APPSID": "tEWcCey0MzdoROSKhQD4CISriOzuPI"
+
+     
+
+    },
+    "production": {
+        "PORT": 3002,
+
+        "MONGODB_URL": "mongodb://localhost:27017/BonatApp",
+
+        "JWT_SECRET": "hjn8g4j84ghj8gfh4jffng641n",
+
+        "AWS_SES_KEY": "AKIARSGL23EJWQNP3R7H",
+        "AWS_SES_SECRET": "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",
+        "AWS_SES_URL": "https://email.eu-west-1.amazonaws.com",
+        "DEFUALT_SES_MAIL": "noreply@bonat.io",
+        
+        "AWS_S3_BUCKET":"bonat-production",
+
+        "AWS_SES_REGION": "eu-west-1",
+
+        "AWS_S3_REGION": "eu-west-2",
+
+        "UNIFONIC_API_URL": "http://api.unifonic.com/rest/Messages/",
+        "UNIFONIC_APPSID": "tEWcCey0MzdoROSKhQD4CISriOzuPI",
+
+        "MAIN_BACKEND_API":"https://api.bonat.io/dashboard/v2/",
+
+        "FIXED_MAIN_BACKEND_TOKEN":"efa2dedbb99799f7828544bcf7784875c55734e184046feb577622a583cc81762a972ac3b7b30d24c04ce45ee2f889bbabebf5dd244ab604cee605d0b2be7143"
+    }
+}
